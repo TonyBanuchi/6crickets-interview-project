@@ -1,0 +1,28 @@
+
+main {
+  display: flex;
+  padding-top: 10vh;
+  padding-left: 10vw;
+}
+
+.card {
+  border: 2px solid #cfcfcf;
+  border-radius: 25px;
+  height: 90%;
+  width: 90%;
+  box-shadow: 3px 3px #d3d3d3;
+  padding: 3%;
+  margin: 1em;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.east, .west {
+  margin: 2em;
+}
+

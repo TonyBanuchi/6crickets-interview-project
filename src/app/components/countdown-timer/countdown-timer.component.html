@@ -1,0 +1,7 @@
+<div class="outer-container" *ngIf="isLoaded">
+  <div class="label"><strong>{{deadline.name}}</strong></div>
+  <div class="inner">
+    <div class="inner-message">Seconds left to deadline:</div>
+    <div class="inner-deadline">{{deadlineValue | number: '1.0'}}</div>
+  </div>
+</div>

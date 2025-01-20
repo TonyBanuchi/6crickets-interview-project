@@ -1,0 +1,16 @@
+<main class="main card">
+  <section class="left card">
+    <div class="east card">
+      <app-countdown-timer [deadlineId]="1"></app-countdown-timer>
+    </div>
+
+    <div class="west card">
+      <app-countdown-timer [deadlineId]="2"></app-countdown-timer>
+    </div>
+    
+  </section>
+  <section class="right card">
+    <app-camera-selector></app-camera-selector>
+  </section>
+</main>
+<router-outlet />
